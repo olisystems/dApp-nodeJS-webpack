@@ -1,0 +1,28 @@
+{
+  "name": "dapp-nodejs-webpack",
+  "version": "1.0.0",
+  "description": "Building Backend for dApp with Truffle, Node.js and Webpack",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olisystems/dApp-nodeJS-webpack.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Ethereum",
+    "dApp",
+    "Truffle",
+    "Node.js",
+    "Webpack",
+    "Backend"
+  ],
+  "author": "Muhammad Yahya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olisystems/dApp-nodeJS-webpack/issues"
+  },
+  "homepage": "https://github.com/olisystems/dApp-nodeJS-webpack#readme"
+}

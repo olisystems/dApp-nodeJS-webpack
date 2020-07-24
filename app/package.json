@@ -1,0 +1,41 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Bootstrap Smart Contract Development",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "prettier": "prettier --write **/*.sol",
+    "slint": "solhint \"contracts/**/*.sol\"",
+    "ganache": "ganache-cli -m 'electric gift gold bitter boring surface stumble swift peanut adult horse dish'",
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olisystems/dApp-nodeJS-webpack.git"
+  },
+  "keywords": [
+    "Blockchain",
+    "Ethereum",
+    "dApp",
+    "Truffle",
+    "Node.js",
+    "Webpack",
+    "Backend"
+  ],
+  "author": "Muhammad Yahya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olisystems/dApp-nodeJS-webpack/issues"
+  },
+  "homepage": "https://github.com/olisystems/dApp-nodeJS-webpack#readme",
+  "devDependencies": {
+    "ganache-cli": "^6.9.1",
+    "prettier": "^2.0.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.54",
+    "solhint": "^3.1.0",
+    "truffle-assertions": "^0.9.2"
+  }
+}

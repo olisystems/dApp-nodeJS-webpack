@@ -10,7 +10,8 @@
     "prettier": "prettier --write **/*.sol",
     "slint": "solhint \"contracts/**/*.sol\"",
     "ganache": "ganache-cli -m 'electric gift gold bitter boring surface stumble swift peanut adult horse dish'",
-    "test": "truffle test"
+    "test": "truffle test",
+    "coverage": "truffle run coverage"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "prettier": "^2.0.5",
     "prettier-plugin-solidity": "^1.0.0-alpha.54",
     "solhint": "^3.1.0",
+    "solidity-coverage": "^0.7.9",
     "truffle-assertions": "^0.9.2"
   }
 }

@@ -1,22 +1,14 @@
-const artifacts = require('../build/contracts/Registration')
 const Provider = require('./Provider')
+const provider = new Provider()
+const { ADDRESS, ABI } = require('./Metadata')
 
 class Contract {
   constructor() {
-    this.provider = new Provider()
-    this.web3 = this.provider.web3
+    this.web3 = provider.web3
   }
-
-  async initContract() {
-    // Retrieve the network ID
-    const networkId = await this.web3.eth.net.getId()
-    // Retrieve the Network configuration
-    const deployedNetwork = artifacts.networks[networkId]
-    // Initializing the contract
-    const instance = new this.web3.eth.Contract(
-      artifacts.abi,
-      deployedNetwork.address,
-    )
+  // create contract instance
+  initContract() {
+    const instance = new this.web3.eth.Contract(ABI, ADDRESS)
     return instance
   }
 }

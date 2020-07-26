@@ -4,7 +4,7 @@ class Provider {
   constructor() {
     //setup web3 provider
     this.web3 = new Web3(
-      new Web3.providers.HttpProvider('http://localhost:9545'),
+      new Web3.providers.HttpProvider('http://localhost:8545'),
     )
   }
 }

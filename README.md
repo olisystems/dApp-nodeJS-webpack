@@ -1,4 +1,4 @@
-# Event Logging
+# Building Backend for dApp with Truffle, Node.js, and Webpack
 
 Building Backend for dApp with Truffle, Node.js and Webpack
 

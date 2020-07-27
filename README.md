@@ -55,7 +55,7 @@ Install the `node.js` and `truffle` globally.
 
 ### Create Build
 
-     Chnage project directory to the root of the project:
+Chnage project directory to the root of the project:
 
     ```
     $ cd dApp-nodeJS-webpack

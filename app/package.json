@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "migrate": "truffle migrate --reset --compile-all",
     "prettier": "prettier --write **/*.sol",
     "slint": "solhint \"contracts/**/*.sol\"",
     "ganache": "ganache-cli -m 'electric gift gold bitter boring surface stumble swift peanut adult horse dish'",
